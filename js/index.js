@@ -101,20 +101,21 @@ var playScreenAnimationDone=function(screenCls){
 window.onscroll=function(){
     var top  = document.body.scrollTop;
     
-   if(top>1){
+   if(top>0){
     playScreenAnimationDone(".screen-1");
    }
-    if(top>800){
+    if(top>800*1-100){
     playScreenAnimationDone(".screen-2");
    }
-   if(top>800*2){
+   if(top>800*2-100){
     playScreenAnimationDone(".screen-3");
    }
-   if(top>800*3){
+   if(top>800*3-100){
     playScreenAnimationDone(".screen-4");
    }
-   if(top>800*4){
+   if(top>800*4-100){
     playScreenAnimationDone(".screen-5");
    }
  
 }
+/*第三步 优化顶部导航栏*/
