@@ -63,7 +63,7 @@ background: #f7f7f7;
 .header__nav-item:hover{
     color: #f01400;
 }
-.header__nav-item_active{
+.header__nav-item_status_active{
     color: #f01400;
 }
 /* 第一屏 */
